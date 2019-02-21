@@ -1,2 +1,1 @@
-makeを実行すると、すべてのプログラムの実行可能ファイルが生成されます。
-report2.pdfに、実行例や考察があります。
+# Suffix Array, Burrows Wheeler Transform, and Larsson Sadakane algorithms
