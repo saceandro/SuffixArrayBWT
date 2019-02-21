@@ -1,0 +1,59 @@
+final suffix array:
+15 14 13 10 2 5 11 8 0 3 6 7 12 9 1 4 
+15	$
+14	A$
+13	AA$
+10	AATAA$
+2	AATACGATAATAA$
+5	ACGATAATAA$
+11	ATAA$
+8	ATAATAA$
+0	ATAATACGATAATAA$
+3	ATACGATAATAA$
+6	CGATAATAA$
+7	GATAATAA$
+12	TAA$
+9	TAATAA$
+1	TAATACGATAATAA$
+4	TACGATAATAA$
+bwt	1 1 4 4 4 4 1 3 0 1 1 2 1 1 1 1 
+occ
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+occ
+1 0 0 0 
+2 0 0 0 
+2 0 0 1 
+2 0 0 2 
+2 0 0 3 
+2 0 0 4 
+3 0 0 4 
+3 0 1 4 
+3 0 1 4 
+4 0 1 4 
+5 0 1 4 
+5 1 1 4 
+6 1 1 4 
+7 1 1 4 
+8 1 1 4 
+9 1 1 4 
+count	0 1 10 11 12 
+query	ATA
+encoded_query
+1 4 1 
+lb:6 ub:9
+answer	11 8 0 3 
